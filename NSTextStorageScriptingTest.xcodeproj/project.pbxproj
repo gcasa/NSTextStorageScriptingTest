@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145394BA226B2A4F00B7529D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 145394B9226B2A4F00B7529D /* AppDelegate.m */; };
+		145394BD226B2A4F00B7529D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145394BC226B2A4F00B7529D /* ViewController.m */; };
+		145394BF226B2A5100B7529D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145394BE226B2A5100B7529D /* Assets.xcassets */; };
+		145394C2226B2A5100B7529D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145394C0226B2A5100B7529D /* Main.storyboard */; };
+		145394C5226B2A5100B7529D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 145394C4226B2A5100B7529D /* main.m */; };
+		145394D0226B2A5100B7529D /* NSTextStorageScriptingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 145394CF226B2A5100B7529D /* NSTextStorageScriptingTestTests.m */; };
+		145394DB226B2A5100B7529D /* NSTextStorageScriptingTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 145394DA226B2A5100B7529D /* NSTextStorageScriptingTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		145394CC226B2A5100B7529D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 145394AD226B2A4F00B7529D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145394B4226B2A4F00B7529D;
+			remoteInfo = NSTextStorageScriptingTest;
+		};
+		145394D7226B2A5100B7529D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 145394AD226B2A4F00B7529D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145394B4226B2A4F00B7529D;
+			remoteInfo = NSTextStorageScriptingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145394B5226B2A4F00B7529D /* NSTextStorageScriptingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTextStorageScriptingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145394B8226B2A4F00B7529D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		145394B9226B2A4F00B7529D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		145394BB226B2A4F00B7529D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		145394BC226B2A4F00B7529D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		145394BE226B2A5100B7529D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		145394C1226B2A5100B7529D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		145394C3226B2A5100B7529D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145394C4226B2A5100B7529D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		145394C6226B2A5100B7529D /* NSTextStorageScriptingTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTextStorageScriptingTest.entitlements; sourceTree = "<group>"; };
+		145394CB226B2A5100B7529D /* NSTextStorageScriptingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTextStorageScriptingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145394CF226B2A5100B7529D /* NSTextStorageScriptingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextStorageScriptingTestTests.m; sourceTree = "<group>"; };
+		145394D1226B2A5100B7529D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145394D6226B2A5100B7529D /* NSTextStorageScriptingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTextStorageScriptingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145394DA226B2A5100B7529D /* NSTextStorageScriptingTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextStorageScriptingTestUITests.m; sourceTree = "<group>"; };
+		145394DC226B2A5100B7529D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145394B2226B2A4F00B7529D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145394C8226B2A5100B7529D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145394D3226B2A5100B7529D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145394AC226B2A4F00B7529D = {
+			isa = PBXGroup;
+			children = (
+				145394B7226B2A4F00B7529D /* NSTextStorageScriptingTest */,
+				145394CE226B2A5100B7529D /* NSTextStorageScriptingTestTests */,
+				145394D9226B2A5100B7529D /* NSTextStorageScriptingTestUITests */,
+				145394B6226B2A4F00B7529D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		145394B6226B2A4F00B7529D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145394B5226B2A4F00B7529D /* NSTextStorageScriptingTest.app */,
+				145394CB226B2A5100B7529D /* NSTextStorageScriptingTestTests.xctest */,
+				145394D6226B2A5100B7529D /* NSTextStorageScriptingTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		145394B7226B2A4F00B7529D /* NSTextStorageScriptingTest */ = {
+			isa = PBXGroup;
+			children = (
+				145394B8226B2A4F00B7529D /* AppDelegate.h */,
+				145394B9226B2A4F00B7529D /* AppDelegate.m */,
+				145394BB226B2A4F00B7529D /* ViewController.h */,
+				145394BC226B2A4F00B7529D /* ViewController.m */,
+				145394BE226B2A5100B7529D /* Assets.xcassets */,
+				145394C0226B2A5100B7529D /* Main.storyboard */,
+				145394C3226B2A5100B7529D /* Info.plist */,
+				145394C4226B2A5100B7529D /* main.m */,
+				145394C6226B2A5100B7529D /* NSTextStorageScriptingTest.entitlements */,
+			);
+			path = NSTextStorageScriptingTest;
+			sourceTree = "<group>";
+		};
+		145394CE226B2A5100B7529D /* NSTextStorageScriptingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				145394CF226B2A5100B7529D /* NSTextStorageScriptingTestTests.m */,
+				145394D1226B2A5100B7529D /* Info.plist */,
+			);
+			path = NSTextStorageScriptingTestTests;
+			sourceTree = "<group>";
+		};
+		145394D9226B2A5100B7529D /* NSTextStorageScriptingTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				145394DA226B2A5100B7529D /* NSTextStorageScriptingTestUITests.m */,
+				145394DC226B2A5100B7529D /* Info.plist */,
+			);
+			path = NSTextStorageScriptingTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		145394B4226B2A4F00B7529D /* NSTextStorageScriptingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145394DF226B2A5100B7529D /* Build configuration list for PBXNativeTarget "NSTextStorageScriptingTest" */;
+			buildPhases = (
+				145394B1226B2A4F00B7529D /* Sources */,
+				145394B2226B2A4F00B7529D /* Frameworks */,
+				145394B3226B2A4F00B7529D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTextStorageScriptingTest;
+			productName = NSTextStorageScriptingTest;
+			productReference = 145394B5226B2A4F00B7529D /* NSTextStorageScriptingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		145394CA226B2A5100B7529D /* NSTextStorageScriptingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145394E2226B2A5100B7529D /* Build configuration list for PBXNativeTarget "NSTextStorageScriptingTestTests" */;
+			buildPhases = (
+				145394C7226B2A5100B7529D /* Sources */,
+				145394C8226B2A5100B7529D /* Frameworks */,
+				145394C9226B2A5100B7529D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145394CD226B2A5100B7529D /* PBXTargetDependency */,
+			);
+			name = NSTextStorageScriptingTestTests;
+			productName = NSTextStorageScriptingTestTests;
+			productReference = 145394CB226B2A5100B7529D /* NSTextStorageScriptingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		145394D5226B2A5100B7529D /* NSTextStorageScriptingTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145394E5226B2A5100B7529D /* Build configuration list for PBXNativeTarget "NSTextStorageScriptingTestUITests" */;
+			buildPhases = (
+				145394D2226B2A5100B7529D /* Sources */,
+				145394D3226B2A5100B7529D /* Frameworks */,
+				145394D4226B2A5100B7529D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145394D8226B2A5100B7529D /* PBXTargetDependency */,
+			);
+			name = NSTextStorageScriptingTestUITests;
+			productName = NSTextStorageScriptingTestUITests;
+			productReference = 145394D6226B2A5100B7529D /* NSTextStorageScriptingTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		145394AD226B2A4F00B7529D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Gregory John Casamento";
+				TargetAttributes = {
+					145394B4226B2A4F00B7529D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					145394CA226B2A5100B7529D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 145394B4226B2A4F00B7529D;
+					};
+					145394D5226B2A5100B7529D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 145394B4226B2A4F00B7529D;
+					};
+				};
+			};
+			buildConfigurationList = 145394B0226B2A4F00B7529D /* Build configuration list for PBXProject "NSTextStorageScriptingTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 145394AC226B2A4F00B7529D;
+			productRefGroup = 145394B6226B2A4F00B7529D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				145394B4226B2A4F00B7529D /* NSTextStorageScriptingTest */,
+				145394CA226B2A5100B7529D /* NSTextStorageScriptingTestTests */,
+				145394D5226B2A5100B7529D /* NSTextStorageScriptingTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		145394B3226B2A4F00B7529D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145394BF226B2A5100B7529D /* Assets.xcassets in Resources */,
+				145394C2226B2A5100B7529D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145394C9226B2A5100B7529D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145394D4226B2A5100B7529D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		145394B1226B2A4F00B7529D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145394BD226B2A4F00B7529D /* ViewController.m in Sources */,
+				145394C5226B2A5100B7529D /* main.m in Sources */,
+				145394BA226B2A4F00B7529D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145394C7226B2A5100B7529D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145394D0226B2A5100B7529D /* NSTextStorageScriptingTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145394D2226B2A5100B7529D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145394DB226B2A5100B7529D /* NSTextStorageScriptingTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		145394CD226B2A5100B7529D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145394B4226B2A4F00B7529D /* NSTextStorageScriptingTest */;
+			targetProxy = 145394CC226B2A5100B7529D /* PBXContainerItemProxy */;
+		};
+		145394D8226B2A5100B7529D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145394B4226B2A4F00B7529D /* NSTextStorageScriptingTest */;
+			targetProxy = 145394D7226B2A5100B7529D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		145394C0226B2A5100B7529D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145394C1226B2A5100B7529D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		145394DD226B2A5100B7529D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		145394DE226B2A5100B7529D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		145394E0226B2A5100B7529D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTextStorageScriptingTest/NSTextStorageScriptingTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextStorageScriptingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.NSTextStorageScriptingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		145394E1226B2A5100B7529D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTextStorageScriptingTest/NSTextStorageScriptingTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextStorageScriptingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.NSTextStorageScriptingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		145394E3226B2A5100B7529D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextStorageScriptingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.NSTextStorageScriptingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTextStorageScriptingTest.app/Contents/MacOS/NSTextStorageScriptingTest";
+			};
+			name = Debug;
+		};
+		145394E4226B2A5100B7529D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextStorageScriptingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.NSTextStorageScriptingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTextStorageScriptingTest.app/Contents/MacOS/NSTextStorageScriptingTest";
+			};
+			name = Release;
+		};
+		145394E6226B2A5100B7529D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextStorageScriptingTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.NSTextStorageScriptingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSTextStorageScriptingTest;
+			};
+			name = Debug;
+		};
+		145394E7226B2A5100B7529D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextStorageScriptingTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.NSTextStorageScriptingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSTextStorageScriptingTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		145394B0226B2A4F00B7529D /* Build configuration list for PBXProject "NSTextStorageScriptingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145394DD226B2A5100B7529D /* Debug */,
+				145394DE226B2A5100B7529D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145394DF226B2A5100B7529D /* Build configuration list for PBXNativeTarget "NSTextStorageScriptingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145394E0226B2A5100B7529D /* Debug */,
+				145394E1226B2A5100B7529D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145394E2226B2A5100B7529D /* Build configuration list for PBXNativeTarget "NSTextStorageScriptingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145394E3226B2A5100B7529D /* Debug */,
+				145394E4226B2A5100B7529D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145394E5226B2A5100B7529D /* Build configuration list for PBXNativeTarget "NSTextStorageScriptingTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145394E6226B2A5100B7529D /* Debug */,
+				145394E7226B2A5100B7529D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 145394AD226B2A4F00B7529D /* Project object */;
+}
