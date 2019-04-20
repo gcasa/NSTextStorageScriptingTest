@@ -10,6 +10,9 @@
 
 @interface ViewController : NSViewController
 
+@property IBOutlet NSTextView *textView;
+
+- (IBAction) button: (id)sender;
 
 @end
 

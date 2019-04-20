@@ -23,5 +23,15 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction) button: (id)sender
+{
+    NSTextStorage *storage = self.textView.textStorage;
+    
+    NSLog(@"Debug");
+    NSLog(@"storage paragraphs %@", [storage paragraphs]);
+    NSLog(@"storage words %@", [storage words]);
+    NSLog(@"storage words %@", [storage characters]);
+    NSLog(@"Called");
+}
 
 @end
